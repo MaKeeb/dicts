@@ -1,0 +1,14 @@
+# AI tooling: per-user runtime state only. .claude/agents|commands|skills are symlinks into
+# .ai/ and stay tracked.
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/worktrees/
+
+# Local reviews, investigation evidence and scratch notes.
+/.ai/local/
+
+# Packs are release assets, never tracked.
+*.mkd
+catalogue.json
+SHA256SUMS
+pack-release/
